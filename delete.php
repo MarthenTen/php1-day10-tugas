@@ -9,6 +9,6 @@ $sql="DELETE FROM mhs  WHERE id_mhs='$id_mhs'";
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: murid.php");
+        Header("Location: index.php");
     }
 ?>

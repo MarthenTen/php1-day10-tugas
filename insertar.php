@@ -12,7 +12,7 @@ $sql="INSERT INTO mhs VALUES('$id_mhs','$nim','$nama','$jurusan')";
 $query= mysqli_query($con,$sql);
 
 if($query){
-    Header("Location: murid.php");
+    Header("Location: index.php");
     
 }else {
 }

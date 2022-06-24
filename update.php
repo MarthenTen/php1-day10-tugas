@@ -12,6 +12,6 @@ $sql="UPDATE mhs SET  nim='$nim',nama='$nama',jurusan='$jurusan' WHERE id_mhs='$
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: murid.php");
+        Header("Location: index.php");
     }
 ?>
